@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>
+    Hello There!
+</h1>
+
+<form action="addition">
+    Enter 1st number: <input type="test" name="num1"><br>
+    Enter 2nd number: <input type="test" name="num2"><br>
+    <input type="submit">
+</form>
+
+<h1>The result is: <br> {{calc_result}}</h1>
+
+{% endblock %}
